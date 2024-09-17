@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/frag1"
+        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:title="Hoy"/>
+
+    <item
+        android:id="@+id/frag2"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Consejos"/>
+
+</menu>

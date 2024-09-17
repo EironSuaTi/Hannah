@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_registro"
+    tools:context=".DiaComienzo">
+
+    <TextView
+        android:id="@+id/txtDia"
+        android:layout_width="364dp"
+        android:layout_height="130dp"
+        android:fontFamily="@font/dancing_script_r"
+        android:gravity="center"
+        android:text="¿Cuándo empezó tu último periodo?"
+        android:textColor="#29035D"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <CalendarView
+        android:id="@+id/calendario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/estilo_calendario"
+        android:theme="@style/CalendarViewCustom"
+        android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDia"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/btn_nsncDia"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_fondo_botones"
+        android:fontFamily="@font/raleway_r"
+        android:text="No estoy segura"
+        android:textAllCaps="false"
+        android:textColor="#430140"
+        android:textSize="13sp"
+        app:backgroundTint="#ECEFF1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <ImageView
+        android:id="@+id/btn_backDia"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

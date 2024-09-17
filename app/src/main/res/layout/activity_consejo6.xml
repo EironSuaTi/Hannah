@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Consejo6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="291dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Infecciones Vaginales"
+                android:textColor="#C85D79"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_desc"
+                android:layout_width="339dp"
+                android:layout_height="353dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_consejo6_00" />
+
+            <TextView
+                android:id="@+id/txtdesc"
+                android:layout_width="280dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Aprende sobre los síntomas característicos de afecciones como la candidiasis, vaginosis bacteriana, tricomoniasis. Descubre las diferencias clave entre cada enfermedad."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/img_consejo6_0"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/img_consejo6_0" />
+
+            <ImageView
+                android:id="@+id/cuadrado1"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="56dp"
+                android:alpha="0.75"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_1"
+                app:srcCompat="@drawable/img_consejo6_4" />
+
+            <ImageView
+                android:id="@+id/imageView6_1"
+                android:layout_width="247dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="220dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtdesc"
+                app:srcCompat="@drawable/img_consejo6_1" />
+
+            <TextView
+                android:id="@+id/vaginosis"
+                android:layout_width="136dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/caveat_b"
+                android:text="VAGINOSIS BACTERIANA"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView6_1"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_1" />
+
+            <ImageView
+                android:id="@+id/indice11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6_1"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="80dp"
+                android:text="Flujo vaginal viscoso y grisáseo."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice11"
+                app:layout_constraintTop_toBottomOf="@+id/img_desc" />
+
+            <ImageView
+                android:id="@+id/indice12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice11"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Olor a pescado."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice12"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/indice13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice12"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="18dp"
+                android:text="Comezón."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice13"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ImageView
+                android:id="@+id/indice14"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice13"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="19dp"
+                android:text="Dolor al orinar."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice14"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ImageView
+                android:id="@+id/cuadrado2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="52dp"
+                android:alpha="0.75"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_2"
+                app:srcCompat="@drawable/img_consejo6_5" />
+
+            <ImageView
+                android:id="@+id/imageView6_2"
+                android:layout_width="247dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="330dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtdesc"
+                app:srcCompat="@drawable/img_consejo6_1" />
+
+            <TextView
+                android:id="@+id/tricomoniasis"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/caveat_b"
+                android:text="TRICOMONIASIS"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="@+id/imageView6_2"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_2" />
+
+            <ImageView
+                android:id="@+id/indice21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="34dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tricomoniasis"
+                app:srcCompat="@drawable/img_consejo6_3" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="75dp"
+                android:text="Flujo de color gria a verde, espumoso."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice21"
+                app:layout_constraintTop_toTopOf="@+id/cuadrado2" />
+
+            <ImageView
+                android:id="@+id/indice22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice21"
+                app:srcCompat="@drawable/img_consejo6_3" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Mal olor."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice22"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <ImageView
+                android:id="@+id/indice23"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice22"
+                app:srcCompat="@drawable/img_consejo6_3" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="18dp"
+                android:text="Comezón."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice23"
+                app:layout_constraintTop_toBottomOf="@+id/textView222" />
+
+            <ImageView
+                android:id="@+id/indice24"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice23"
+                app:srcCompat="@drawable/img_consejo6_3" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="19dp"
+                android:text="Dolor al tener relaciones sexuales."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice24"
+                app:layout_constraintTop_toBottomOf="@+id/textView232" />
+
+            <ImageView
+                android:id="@+id/cuadrado3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="572dp"
+                android:alpha="0.75"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_1"
+                app:srcCompat="@drawable/img_consejo6_4" />
+
+            <ImageView
+                android:id="@+id/imageView6_5"
+                android:layout_width="247dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="600dp"
+                android:layout_marginEnd="220dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtdesc"
+                app:srcCompat="@drawable/img_consejo6_1" />
+
+            <TextView
+                android:id="@+id/candidiasis"
+                android:layout_width="136dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/caveat_b"
+                android:text="CANDIDIASIS"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView6_5"
+                app:layout_constraintTop_toTopOf="@+id/imageView6_5" />
+
+            <ImageView
+                android:id="@+id/indice31"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6_5"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView313"
+                android:layout_width="276dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="95dp"
+                android:text="Flujo blanquesino espeso y abundante (sin olor)."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice31"
+                app:layout_constraintTop_toTopOf="@+id/cuadrado3" />
+
+            <ImageView
+                android:id="@+id/indice32"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="38dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice31"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="22dp"
+                android:text="Ardor y comezón intensa."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice32"
+                app:layout_constraintTop_toBottomOf="@+id/textView313" />
+
+            <ImageView
+                android:id="@+id/indice33"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice32"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="19dp"
+                android:text="Dolor al orinar y al tener relaciones."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice33"
+                app:layout_constraintTop_toBottomOf="@+id/textView323" />
+
+            <ImageView
+                android:id="@+id/indice343"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indice33"
+                app:srcCompat="@drawable/img_consejo6_2" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="19dp"
+                android:text="Enrojecimiento de vulva."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/indice343"
+                app:layout_constraintTop_toBottomOf="@+id/textView333" />
+
+            <ImageView
+                android:id="@+id/piepag"
+                android:layout_width="427dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#DE8298"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView343" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Si crees tener alguno de estos sintomas acude consulta tu medico."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="@+id/piepag"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="@+id/piepag"
+                app:layout_constraintTop_toTopOf="@+id/piepag" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

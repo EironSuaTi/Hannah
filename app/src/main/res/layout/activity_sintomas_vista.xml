@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_registro"
+    tools:context=".SintomasVista">
+
+    <ImageView
+        android:id="@+id/btn_backPerfilSintVer"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+    <TextView
+        android:id="@+id/vista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/raleway_b"
+        android:gravity="center"
+        android:text="Mis Síntomas"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/quicksand_r"
+        android:text="Tus sintomas del dia  00/00/0000  son:"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vista" />
+
+    <TextView
+        android:id="@+id/color5"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#F3E4F2"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFecha" />
+
+    <TextView
+        android:id="@+id/color6"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#F3E4F2"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color5" />
+
+    <TextView
+        android:id="@+id/color7"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#F3E4F2"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color6" />
+
+    <TextView
+        android:id="@+id/color8"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#F3E4F2"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color7" />
+
+    <TextView
+        android:id="@+id/AS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/raleway_r"
+        android:text="Actividad Sexual y Deseo"
+        android:textColor="#430140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/EA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="130dp"
+        android:text="Estado de animo"
+        android:textColor="#430140"
+        android:fontFamily="@font/raleway_r"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AS" />
+
+    <TextView
+        android:id="@+id/S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="118dp"
+        android:fontFamily="@font/raleway_r"
+        android:text="Sintomas"
+        android:textColor="#430140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EA" />
+
+    <TextView
+        android:id="@+id/FV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="118dp"
+        android:fontFamily="@font/raleway_r"
+        android:text="Flujo vaginal"
+        android:textColor="#430140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S" />
+
+    <TextView
+        android:id="@+id/color1"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#B77BB4"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFecha" />
+
+    <TextView
+        android:id="@+id/color2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#B77BB4"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color1" />
+
+    <TextView
+        android:id="@+id/color3"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#B77BB4"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color2" />
+
+    <TextView
+        android:id="@+id/color4"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        android:backgroundTint="#B77BB4"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color3" />
+
+    <TextView
+        android:id="@+id/txtSX"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="No hay Sintomas registrados"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/AS"
+        app:layout_constraintStart_toStartOf="@+id/color1"
+        app:layout_constraintTop_toTopOf="@+id/color1" />
+
+    <TextView
+        android:id="@+id/txtEA"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="No hay Sintomas registrados"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/color2"
+        app:layout_constraintTop_toTopOf="@+id/color2" />
+
+    <TextView
+        android:id="@+id/txtFluj"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="No hay Sintomas registrados"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/FV"
+        app:layout_constraintStart_toStartOf="@+id/color4"
+        app:layout_constraintTop_toTopOf="@+id/color4" />
+
+    <TextView
+        android:id="@+id/txtSin"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="No hay Sintomas registrados"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/S"
+        app:layout_constraintStart_toStartOf="@+id/color3"
+        app:layout_constraintTop_toTopOf="@+id/color3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

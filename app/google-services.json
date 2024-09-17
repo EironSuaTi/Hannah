@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235622054024",
+    "project_id": "hannah-tfg",
+    "storage_bucket": "hannah-tfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235622054024:android:30cc9a41fd74804af3073d",
+        "android_client_info": {
+          "package_name": "com.example.pantallas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235622054024-s9kgasklt477ht53q9a4ptcihsptl8c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pantallas",
+            "certificate_hash": "263dd2c6191ff978f3e03bf462927a85b26800b3"
+          }
+        },
+        {
+          "client_id": "235622054024-ke510ni2k8gil2o43pvcluhg6pldcd2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ7jElwkwFl8DEnkMJylSmb3pS1G53AxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235622054024-ke510ni2k8gil2o43pvcluhg6pldcd2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

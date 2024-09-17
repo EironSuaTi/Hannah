@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consejo4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/quicksand_b"
+                android:text="ENFERMEDADES CRONICAS"
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_6"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo4_5" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Enfermedades crónicas como diabetes, problemas de tiroides o intestinales pueden causar reglas irregulares debido a desequilibrios hormonales. 				       Es importante consultar a un médico y realizar chequeos regulares."
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_6"
+                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="231dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/caveat_b"
+                android:text="Explorando la causa de los retrasos"
+                android:textColor="#671D47"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.389"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_0"
+                android:layout_width="240dp"
+                android:layout_height="197dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.278"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_consejo4_0" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_consejo4_1" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28"
+                app:srcCompat="@drawable/img_consejo4_2" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.915"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34"
+                app:srcCompat="@drawable/img_consejo4_3" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.061"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30"
+                app:srcCompat="@drawable/img_consejo4_4" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView31"
+                app:srcCompat="@drawable/img_consejo4_5" />
+
+            <ImageView
+                android:id="@+id/img_consejo4_6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36"
+                app:srcCompat="@drawable/img_consejo4_6" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="330dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="168dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Cuando pensamos en retrasos, lo primero que se nos ocurre es un posible embarazo. Sin embargo, es importante saber que los retrasos son más frecuentes de lo que pensamos y pueden tener diferentes causas."
+                android:textColor="#671D47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="200dp"
+                android:layout_height="132dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="El SOP afecta a mujeres con síntomas como crecimiento de vello, quistes en los ovarios, aumento de peso y reglas irregulares. Ante estos retrasos menstruales, es recomendable consultar a un ginecólogo."
+                android:textColor="#671D47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.075"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/quicksand_b"
+                android:text="OVARIOS POLIQUISTICO"
+                android:textColor="#671D47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.075"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo4_2" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="200dp"
+                android:layout_height="132dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Los cambios de peso extremos pueden alterar las hormonas y el ciclo menstrual. Mantener una dieta equilibrada, hacer ejercicio y cuidar la salud en general es importante."
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_4"
+                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/quicksand_b"
+                android:text="EL PESO"
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_4"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo4_3" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="200dp"
+                android:layout_height="113dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="El estrés crónico puede afectar nuestra salud, incluyendo el ciclo menstrual, causando irregularidades y aumentando el flujo y el dolor durante la menstruación."
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_2"
+                app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/quicksand_b"
+                android:text="EL ESTRÉS"
+                android:textColor="#671D47"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo4_2"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_b"
+                android:text="ANTICONCEPTIVOS HORMONALES"
+                android:textColor="#671D47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo4_4" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Los anticonceptivos hormonales pueden regular el ciclo, pero al suspenderlos y retomarlos pueden causar desajustes y periodos irregulares. Es importante dar tiempo al cuerpo para adaptarse a los cambios hormonales."
+                android:textColor="#671D47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="365dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Para más información te dejamos el enlace de donde se saco la información por si deseas saber más sobre las irregularidades en ciclo menstrual."
+                android:textColor="#671D47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo4_6" />
+
+            <TextView
+                android:id="@+id/txtLink"
+                android:layout_width="365dp"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/quicksand_b"
+                android:gravity="center"
+                android:text="https://www.20minutos.es/salud/motivos-regla-puede-retrasarse-irregular-4797332/"
+                android:textColor="#671D47"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

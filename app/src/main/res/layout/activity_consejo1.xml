@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_consejo1"
+    tools:context=".Consejo1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_consejo1_0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tampon"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="44dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Tampón"
+                android:textColor="#4EB1BC"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.149"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/tamponimg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tampon"
+                app:srcCompat="@drawable/img_consejo1_1" />
+
+            <ImageView
+                android:id="@+id/copaimg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="56dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/copa"
+                app:srcCompat="@drawable/img_consejo1_2" />
+
+            <TextView
+                android:id="@+id/copa"
+                android:layout_width="153dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="Copa Menstrual"
+                android:textColor="#EA9AB2"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.903"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descT"
+                android:layout_width="148dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Producto suave y absorbente a base de algodón  o rayón que ayuda a proteger contra las fugas en el período."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.06"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tamponimg" />
+
+            <TextView
+                android:id="@+id/descC"
+                android:layout_width="148dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Dispositivo reutilizable para recoger el fluido  menstrual, la mayoría tienen forma de campana."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.939"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/copaimg" />
+
+            <TextView
+                android:id="@+id/T1"
+                android:layout_width="148dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Se deben cambiar cada 4 o 6 horas o menos si la  	  menstruación es muy intensa."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descT" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Es de único uso y descartable."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/T1" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="No se deben utilizar para dormir."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Puede producir sequedad."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/t3" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Son discretos y faciles de transportar."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/t4" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="148dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="No son biodegradables y pueden tardar mas de 100 años en descomponerse."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/t5" />
+
+            <TextView
+                android:id="@+id/C1"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Tienen capacidad de retención hasta 12 horas."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descC" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="44dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Se puede usar para dormir."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c2" />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="No interfiere con el PH vaginal ni reseca."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c" />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Son cómodas y seguras si están bien colocadas."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.899"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c3" />
+
+            <TextView
+                android:id="@+id/c5"
+                android:layout_width="148dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Puede tomar tiempo acostumbrarse a ponerla y a sacarla."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.899"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c4" />
+
+            <TextView
+                android:id="@+id/c6"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Son una ventaja económica a largo plazo."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.899"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c5" />
+
+            <TextView
+                android:id="@+id/c7"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="No está asociada a infecciones ni desprende olor."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.899"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c6" />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="148dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="68dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Es reutilizable y no genera residuos."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/C1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

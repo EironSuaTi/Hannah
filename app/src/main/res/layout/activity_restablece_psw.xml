@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_inicio_sesion"
+    tools:context=".RestablecePsw">
+
+    <ImageView
+        android:id="@+id/btn_backInicio"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+    <TextView
+        android:id="@+id/txtDia3"
+        android:layout_width="237dp"
+        android:layout_height="130dp"
+        android:fontFamily="@font/dancing_script_r"
+        android:gravity="center"
+        android:text="Restablecer Contraseña"
+        android:textColor="#29035D"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <Button
+        android:id="@+id/restPsw"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_fondo_botones"
+        android:fontFamily="@font/raleway_b"
+        android:text="Confirmar"
+        android:textAllCaps="false"
+        android:textColor="#AB5EA7"
+        app:backgroundTint="#F3E4F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <EditText
+        android:id="@+id/editEmailR"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editEmailR"
+        app:layout_constraintStart_toStartOf="@+id/editEmailR"
+        app:layout_constraintTop_toTopOf="@+id/editEmailR"
+        app:layout_constraintVertical_bias="0.541"
+        app:srcCompat="@drawable/ic_baseline_email_24"
+        tools:ignore="ImageContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

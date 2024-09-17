@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_registro"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="227dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/raleway_r"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Al usar esta app, aceptas nuestra"
+        android:textColor="#29035D"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
+
+    <TextView
+        android:id="@+id/txtPolitica"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:fontFamily="@font/raleway_r"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="politica de privacidad"
+        android:textColor="#29035D"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <ImageView
+        android:id="@+id/btn_backBienvenidaR"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+    <TextView
+        android:id="@+id/txtDia"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/dancing_script_r"
+        android:gravity="center"
+        android:text="¡Crea tu cuenta!"
+        android:textColor="#29035D"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+
+    <EditText
+        android:id="@+id/editNombreRegs"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <EditText
+        android:id="@+id/editAnyoNacRegs"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Año de nacimiento"
+        android:inputType="textPersonName"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <EditText
+        android:id="@+id/editEmailRegs"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <EditText
+        android:id="@+id/editPswRegs"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Contraseña  (8 Caracteres)"
+        android:inputType="textPassword"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageButton
+        android:id="@+id/PswEyeRegs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_psw_eye_off"
+        app:layout_constraintBottom_toBottomOf="@+id/editPswRegs"
+        app:layout_constraintEnd_toEndOf="@+id/editPswRegs"
+        app:layout_constraintTop_toTopOf="@+id/editPswRegs"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editPsw2Regs"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/estilo_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/raleway_r"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#c8c8c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <ImageButton
+        android:id="@+id/PswEyeRegs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editPsw2Regs"
+        app:layout_constraintEnd_toEndOf="@+id/editPsw2Regs"
+        app:layout_constraintTop_toTopOf="@+id/editPsw2Regs"
+        app:srcCompat="@drawable/ic_psw_eye_off"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ic_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editNombreRegs"
+        app:layout_constraintStart_toStartOf="@+id/editNombreRegs"
+        app:layout_constraintTop_toTopOf="@+id/editNombreRegs"
+        app:srcCompat="@drawable/ic_baseline_person_2_24" />
+
+    <ImageView
+        android:id="@+id/ic_calendario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editAnyoNacRegs"
+        app:layout_constraintStart_toStartOf="@+id/editAnyoNacRegs"
+        app:layout_constraintTop_toTopOf="@+id/editAnyoNacRegs"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24" />
+
+    <ImageView
+        android:id="@+id/ic_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editEmailRegs"
+        app:layout_constraintStart_toStartOf="@+id/editEmailRegs"
+        app:layout_constraintTop_toTopOf="@+id/editEmailRegs"
+        app:srcCompat="@drawable/ic_baseline_email_24" />
+
+    <ImageView
+        android:id="@+id/ic_contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editPswRegs"
+        app:layout_constraintStart_toStartOf="@+id/editPswRegs"
+        app:layout_constraintTop_toTopOf="@+id/editPswRegs"
+        app:srcCompat="@drawable/ic_baseline_lock_24" />
+
+    <ImageView
+        android:id="@+id/ic_Ccontra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editPsw2Regs"
+        app:layout_constraintStart_toStartOf="@+id/editPsw2Regs"
+        app:layout_constraintTop_toTopOf="@+id/editPsw2Regs"
+        app:srcCompat="@drawable/ic_baseline_lock_24" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_fondo_botones"
+        android:fontFamily="@font/raleway_b"
+        android:text="Registrate"
+        android:textAllCaps="false"
+        android:textColor="#AB5EA7"
+        app:backgroundTint="#F3E4F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPsw2Regs"
+        app:layout_constraintVertical_bias="0.427" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

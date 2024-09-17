@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Consejo3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="299dp"
+                android:layout_height="93dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/rubik_b"
+                android:gravity="center"
+                android:text="SANGRADO DE IMPLANTACIÓN"
+                android:textColor="#C01C33"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="85dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="224dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintStart_toStartOf="@+id/titulo"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_consejo3_0" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="350dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="148dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="El sangrado de implantación es un manchado o un sangrado leve que ocurre entre 10 y 14 días después de la concepción, es considerado normal."
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/rubik_b"
+                android:gravity="center"
+                android:text="¿CUÁNDO SUCEDE?"
+                android:textColor="#C01C33"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+            <ImageView
+                android:id="@+id/cuad1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F0A89B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo2" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad1"
+                app:layout_constraintStart_toStartOf="@+id/cuad1"
+                app:layout_constraintTop_toTopOf="@+id/cuad1"
+                app:layout_constraintVertical_bias="0.2"
+                app:srcCompat="@drawable/img_consejo3_1" />
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="Ocurre cuando el óvulo fecundado se une y se fija a la pared del útero."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad1"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo3_1"
+                app:layout_constraintTop_toTopOf="@+id/cuad1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/cuad2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F37875"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad1" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad2"
+                app:layout_constraintEnd_toEndOf="@+id/cuad2"
+                app:layout_constraintTop_toTopOf="@+id/cuad2"
+                app:layout_constraintVertical_bias="0.2"
+                app:srcCompat="@drawable/img_consejo3_2" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="Se presenta cerca del momento en que se esperaría tener una menstruación."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad2"
+                app:layout_constraintEnd_toStartOf="@+id/img_consejo3_2"
+                app:layout_constraintTop_toTopOf="@+id/cuad2" />
+
+            <ImageView
+                android:id="@+id/cuad3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F0A89B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad2" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad3"
+                app:layout_constraintStart_toStartOf="@+id/cuad3"
+                app:layout_constraintTop_toTopOf="@+id/cuad3"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/img_consejo3_3" />
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="Este sangrado es más leve que el producido al menstruar."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad3"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo3_3"
+                app:layout_constraintTop_toTopOf="@+id/cuad3"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/cuad4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F37875"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad3" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad4"
+                app:layout_constraintEnd_toEndOf="@+id/cuad4"
+                app:layout_constraintTop_toTopOf="@+id/cuad4"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/img_consejo3_4" />
+
+            <TextView
+                android:id="@+id/desc4"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="Este se detiene de forma espontánea y no requiere tratamiento, se produce en 3 de cada 10 mujeres."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad4"
+                app:layout_constraintEnd_toStartOf="@+id/img_consejo3_4"
+                app:layout_constraintTop_toTopOf="@+id/cuad4"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/rubik_b"
+                android:gravity="center"
+                android:text="¿POR QUÉ SUCEDE?"
+                android:textColor="#C01C33"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad4" />
+
+            <ImageView
+                android:id="@+id/cuad5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F37875"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo3" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad5"
+                app:layout_constraintStart_toStartOf="@+id/cuad5"
+                app:layout_constraintTop_toTopOf="@+id/cuad5"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/img_consejo3_5" />
+
+            <TextView
+                android:id="@+id/desc5"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="El aumento de la irritación uterina prepara y alimenta al embrión para su buen desarrollo."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad5"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo3_5"
+                app:layout_constraintTop_toTopOf="@+id/cuad5"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/cuad6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F0A89B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad5" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad6"
+                app:layout_constraintEnd_toEndOf="@+id/cuad6"
+                app:layout_constraintTop_toTopOf="@+id/cuad6"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/img_consejo3_6" />
+
+            <TextView
+                android:id="@+id/desc6"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="Debido a la propia implantación embriona se pueden romper varios vasos, provocando la perdida de sangre."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad6"
+                app:layout_constraintEnd_toStartOf="@+id/img_consejo3_6"
+                app:layout_constraintTop_toTopOf="@+id/cuad6"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/cuad7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_rec_index"
+                android:backgroundTint="#F37875"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad6" />
+
+            <ImageView
+                android:id="@+id/img_consejo3_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad7"
+                app:layout_constraintStart_toStartOf="@+id/cuad7"
+                app:layout_constraintTop_toTopOf="@+id/cuad7"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/img_consejo3_7" />
+
+            <TextView
+                android:id="@+id/desc7"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_r"
+                android:gravity="center"
+                android:text="La mejor manera de confirmarlo es a través de un test de embarazo, pero hay veces que es muy pronto, lo mejor es acudir a tu medico."
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cuad7"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo3_7"
+                app:layout_constraintTop_toTopOf="@+id/cuad7"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="455dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuad7"
+                app:srcCompat="@drawable/img_consejo3_8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

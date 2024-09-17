@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Consejo7">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo7"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="204dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/los"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Los"
+                android:textColor="#784D58"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/metodos"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="métodos"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/los" />
+
+            <TextView
+                android:id="@+id/anticonceptivos"
+                android:layout_width="325dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="ANTICONCEPTIVOS"
+                android:textColor="#784D58"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/metodos" />
+
+            <TextView
+                android:id="@+id/hormonales"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Hormonales"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/anticonceptivos" />
+
+            <TextView
+                android:id="@+id/orales"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Orales "
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hormonales" />
+
+            <TextView
+                android:id="@+id/eficacia"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Eficacia 99%"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/orales" />
+
+            <TextView
+                android:id="@+id/verde1"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#DCE9D4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia" />
+
+            <TextView
+                android:id="@+id/ventajas1"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="VENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde1"
+                app:layout_constraintStart_toStartOf="@+id/verde1"
+                app:layout_constraintTop_toTopOf="@+id/verde1" />
+
+            <TextView
+                android:id="@+id/verdetxt1"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Disminución del dolor con la regla y del sangrado menstrual. \n ○ Ciclos puntuales y regulares. \n ○ Mejoría del exceso de vello y el acné. \n ○ Disminución del riesgo de cáncer de ovario y de endometrio."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde1"
+                app:layout_constraintStart_toStartOf="@+id/verde1"
+                app:layout_constraintTop_toBottomOf="@+id/ventajas1" />
+
+            <ImageView
+                android:id="@+id/pastillas"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="170dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/verde1"
+                app:srcCompat="@drawable/img_consejo7_1" />
+
+            <TextView
+                android:id="@+id/rojo1"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F8DFD8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia" />
+
+            <TextView
+                android:id="@+id/desventajas1"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="DESVENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo1"
+                app:layout_constraintStart_toStartOf="@+id/rojo1"
+                app:layout_constraintTop_toTopOf="@+id/rojo1" />
+
+            <TextView
+                android:id="@+id/rojotxt1"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Toma diaria constante y sin olvidos. \n ○ Incompatibles con la toma simultanea de algunos medicamentos. \n ○ No protege contra las ETS. \n ○ Pueden producir algunos efectos secundarios."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo1"
+                app:layout_constraintStart_toStartOf="@+id/rojo1"
+                app:layout_constraintTop_toBottomOf="@+id/desventajas1" />
+
+            <TextView
+                android:id="@+id/anillo"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Anillo Vaginal"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia" />
+
+            <TextView
+                android:id="@+id/eficacia2"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Eficacia: 98%-99%"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/anillo" />
+
+            <TextView
+                android:id="@+id/verde2"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#DCE9D4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia2" />
+
+            <TextView
+                android:id="@+id/ventajas2"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="VENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde2"
+                app:layout_constraintStart_toStartOf="@+id/verde2"
+                app:layout_constraintTop_toTopOf="@+id/verde2" />
+
+            <TextView
+                android:id="@+id/verdetxt2"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Menor manifiesto de efectos secundarios. \n ○ Vomitos y diarrea no afectan a su eficacia. \n ○ Uso mensual. \n ○ Reversible y rápido restablecimiento de la fertilidad."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde2"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="@+id/verde2"
+                app:layout_constraintTop_toBottomOf="@+id/ventajas2" />
+
+            <TextView
+                android:id="@+id/rojo2"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F8DFD8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia2" />
+
+            <TextView
+                android:id="@+id/desventajas2"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="DESVENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo2"
+                app:layout_constraintStart_toStartOf="@+id/rojo2"
+                app:layout_constraintTop_toTopOf="@+id/rojo2" />
+
+            <TextView
+                android:id="@+id/rojotxt2"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Posible expulsión accidental. \n ○ Puede llegar a ser incómodo. \n ○ No protege contra las enfermedades de transmisión sexual (ETS)."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo2"
+                app:layout_constraintStart_toStartOf="@+id/rojo2"
+                app:layout_constraintTop_toBottomOf="@+id/desventajas2" />
+
+            <TextView
+                android:id="@+id/parche"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Parche"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia2" />
+
+            <TextView
+                android:id="@+id/eficacia3"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Eficacia: 91%-99%"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/parche" />
+
+            <TextView
+                android:id="@+id/verde3"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#DCE9D4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia3" />
+
+            <TextView
+                android:id="@+id/ventajas3"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="VENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde3"
+                app:layout_constraintStart_toStartOf="@+id/verde3"
+                app:layout_constraintTop_toTopOf="@+id/verde3" />
+
+            <TextView
+                android:id="@+id/verdetxt3"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Reduce las molestias durante el periodo. \n ○ Vomitos y diarrea no afectan a su eficacia. \n ○ Fácil de usar. \n ○ Reversible  y rápido restablecimiento de la fertilidad."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde3"
+                app:layout_constraintStart_toStartOf="@+id/verde3"
+                app:layout_constraintTop_toBottomOf="@+id/ventajas3" />
+
+            <TextView
+                android:id="@+id/rojo3"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F8DFD8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia3" />
+
+            <TextView
+                android:id="@+id/desventajas3"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="DESVENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo3"
+                app:layout_constraintStart_toStartOf="@+id/rojo3"
+                app:layout_constraintTop_toTopOf="@+id/rojo3" />
+
+            <TextView
+                android:id="@+id/rojotxt3"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Posible despligue accidental. \n ○ Posibles irritaciones cutaneas en la zona colocada. \n ○ No protege contra enfermedades de transmisión sexual (ETS)."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo3"
+                app:layout_constraintStart_toStartOf="@+id/rojo3"
+                app:layout_constraintTop_toBottomOf="@+id/desventajas3" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="120dp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo3"
+                app:layout_constraintTop_toTopOf="@+id/rojo3"
+                app:srcCompat="@drawable/img_consejo7_2" />
+
+            <TextView
+                android:id="@+id/hormonal"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Hormonal Inyectable"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia3" />
+
+            <TextView
+                android:id="@+id/eficacia4"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Eficacia: 94%-99%"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hormonal" />
+
+            <TextView
+                android:id="@+id/verde4"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#DCE9D4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia4" />
+
+            <TextView
+                android:id="@+id/ventajas4"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="VENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde4"
+                app:layout_constraintStart_toStartOf="@+id/verde4"
+                app:layout_constraintTop_toTopOf="@+id/verde4" />
+
+            <TextView
+                android:id="@+id/verdetxt4"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Es de larga duración. \n ○ Vomitos y diarrea no afectan a su eficacia. \n ○ Mayor comodidad. \n ○ Menor manifiesto de efectos secundarios. \n ○ Reversible  y rápido restablecimiento de la fertilidad."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde4"
+                app:layout_constraintStart_toStartOf="@+id/verde4"
+                app:layout_constraintTop_toBottomOf="@+id/ventajas4" />
+
+            <TextView
+                android:id="@+id/rojo4"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F8DFD8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia4" />
+
+            <TextView
+                android:id="@+id/desventajas4"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="DESVENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo4"
+                app:layout_constraintStart_toStartOf="@+id/rojo4"
+                app:layout_constraintTop_toTopOf="@+id/rojo4" />
+
+            <TextView
+                android:id="@+id/rojotxt4"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ No protege contra enfermedades de transmisión sexual (ETS). \n ○ Requiere de de intervención medica para ponerlo y quitarlo. \n ○ Menstruaciones más irregulares"
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo4"
+                app:layout_constraintStart_toStartOf="@+id/rojo4"
+                app:layout_constraintTop_toBottomOf="@+id/desventajas4" />
+
+            <TextView
+                android:id="@+id/diu"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="DIU"
+                android:textColor="#784D58"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia4" />
+
+            <TextView
+                android:id="@+id/eficacia5"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat_b"
+                android:gravity="center"
+                android:text="Eficacia: 94%-99%"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/diu" />
+
+            <TextView
+                android:id="@+id/verde5"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#DCE9D4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia5" />
+
+            <TextView
+                android:id="@+id/ventajas5"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="VENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde5"
+                app:layout_constraintStart_toStartOf="@+id/verde5"
+                app:layout_constraintTop_toTopOf="@+id/verde5" />
+
+            <TextView
+                android:id="@+id/verdetxt5"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ Es de larga duración. \n ○ Vomitos y diarrea no afectan a su eficacia. \n ○ Mayor comodidad. \n ○ Menor manifiesto de efectos secundarios. \n ○ Reversible  y rápido restablecimiento de la fertilidad."
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/verde5"
+                app:layout_constraintStart_toStartOf="@+id/verde5"
+                app:layout_constraintTop_toBottomOf="@+id/ventajas5" />
+
+            <TextView
+                android:id="@+id/rojo5"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F8DFD8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eficacia5" />
+
+            <TextView
+                android:id="@+id/desventajas5"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="DESVENTAJAS"
+                android:textColor="#784D58"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo5"
+                app:layout_constraintStart_toStartOf="@+id/rojo5"
+                app:layout_constraintTop_toTopOf="@+id/rojo5" />
+
+            <TextView
+                android:id="@+id/rojotxt5"
+                android:layout_width="135dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="10dp"
+                android:text="○ No protege contra enfermedades de transmisión sexual (ETS). \n ○ Requiere de de intervención medica para ponerlo y quitarlo. \n ○ Menstruaciones más irregulares"
+                android:textColor="#784D58"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/rojo5"
+                app:layout_constraintStart_toStartOf="@+id/rojo5"
+                app:layout_constraintTop_toBottomOf="@+id/desventajas5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos7"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Consejo5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo5"
+        tools:layout_editor_absoluteX="-139dp"
+        tools:layout_editor_absoluteY="-43dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titulo11"
+                android:layout_width="330dp"
+                android:layout_height="121dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#B3DEE2"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="308dp"
+                android:layout_height="94dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="Que comer en tu periodo"
+                android:textColor="#4EB1BC"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_salmon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/color1"
+                app:layout_constraintTop_toBottomOf="@+id/titulo1"
+                app:srcCompat="@drawable/img_consejo5_1" />
+
+            <TextView
+                android:id="@+id/color1"
+                android:layout_width="258dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#F46437"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.896"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo1" />
+
+            <TextView
+                android:id="@+id/salmonTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="OMEGA 3"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/color1"
+                app:layout_constraintTop_toTopOf="@+id/color1" />
+
+            <TextView
+                android:id="@+id/salmontxt"
+                android:layout_width="246dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Estas grasas antiinflamatorias pueden aliviar los síntomas del período y reducir el riesgo de cáncer de endometrio."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/color1"
+                app:layout_constraintTop_toBottomOf="@+id/salmonTitulo" />
+
+            <ImageView
+                android:id="@+id/img_verde"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintStart_toEndOf="@+id/aguacate"
+                app:layout_constraintTop_toBottomOf="@+id/color1"
+                app:srcCompat="@drawable/img_consejo5_2" />
+
+            <TextView
+                android:id="@+id/aguacate"
+                android:layout_width="258dp"
+                android:layout_height="111dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#90BB3F"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_salmon" />
+
+            <TextView
+                android:id="@+id/aguacateTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="FIBRA"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/aguacate"
+                app:layout_constraintTop_toTopOf="@+id/aguacate" />
+
+            <TextView
+                android:id="@+id/aguacatetxt"
+                android:layout_width="246dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Mejora la salud intestinal, elimina el estreñimiento y ayuda a mantener un peso equilibrado. Durante el período reduce la hinchazón y el malestar, promoviendo una eliminación regular."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/aguacate"
+                app:layout_constraintTop_toBottomOf="@+id/aguacateTitulo" />
+
+            <ImageView
+                android:id="@+id/img_nuez"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/nuez"
+                app:layout_constraintTop_toBottomOf="@+id/aguacate"
+                app:srcCompat="@drawable/img_consejo5_3" />
+
+            <TextView
+                android:id="@+id/nuez"
+                android:layout_width="258dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#8C5243"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.869"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aguacate" />
+
+            <TextView
+                android:id="@+id/nuezTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="SEROTONINA"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/nuez"
+                app:layout_constraintTop_toTopOf="@+id/nuez" />
+
+            <TextView
+                android:id="@+id/nueztxt"
+                android:layout_width="246dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Aumentar naturalmente la serotonina, un neurotransmisor que puede contribuir a un estado de ánimo más equilibrado y estable."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/nuez"
+                app:layout_constraintTop_toBottomOf="@+id/nuezTitulo" />
+
+            <ImageView
+                android:id="@+id/img_huevo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintStart_toEndOf="@+id/huevo"
+                app:layout_constraintTop_toBottomOf="@+id/nuez"
+                app:srcCompat="@drawable/img_consejo5_4" />
+
+            <TextView
+                android:id="@+id/huevo"
+                android:layout_width="258dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#FFB515"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_nuez" />
+
+            <TextView
+                android:id="@+id/huevoTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="HIERRO"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/huevo"
+                app:layout_constraintTop_toTopOf="@+id/huevo" />
+
+            <TextView
+                android:id="@+id/huevotxt"
+                android:layout_width="246dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Comer alimentos ricos en hierro durante el período ayuda a aumentar la producción de sangre nueva y fortalece el revestimiento del útero."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/huevo"
+                app:layout_constraintTop_toBottomOf="@+id/huevoTitulo" />
+
+            <TextView
+                android:id="@+id/titulo55"
+                android:layout_width="330dp"
+                android:layout_height="121dp"
+                android:layout_marginTop="756dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#B3DEE2"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo5"
+                android:layout_width="308dp"
+                android:layout_height="94dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/cherry_r"
+                android:gravity="center"
+                android:text="Que NO comer en tu periodo"
+                android:textColor="#D94032"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/huevo" />
+
+            <ImageView
+                android:id="@+id/img_chips"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/chips"
+                app:layout_constraintTop_toBottomOf="@+id/titulo5"
+                app:srcCompat="@drawable/img_consejo5_5" />
+
+            <TextView
+                android:id="@+id/chips"
+                android:layout_width="258dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#FEB74F"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.892"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo5" />
+
+            <TextView
+                android:id="@+id/chipsTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="AZUCCAR Y COMIDA CHATARRA"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/chips"
+                app:layout_constraintTop_toTopOf="@+id/chips" />
+
+            <TextView
+                android:id="@+id/chipstxt"
+                android:layout_width="246dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="El azúcar afecta negativamente el equilibrio hormonal. La comida chatarra afecta la digestión e irritación del intestino, además empeora los sintomas del sismeta reproductivo (dolor de espalda, calambres, y cambios de animo)"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/chips"
+                app:layout_constraintTop_toBottomOf="@+id/chipsTitulo" />
+
+            <ImageView
+                android:id="@+id/img_alcohool"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintStart_toEndOf="@+id/alcohool"
+                app:layout_constraintTop_toBottomOf="@+id/chips"
+                app:srcCompat="@drawable/img_consejo5_6" />
+
+            <TextView
+                android:id="@+id/alcohool"
+                android:layout_width="258dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#B7186A"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chips" />
+
+            <TextView
+                android:id="@+id/alcohoolTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="ALCOHOL"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/alcohool"
+                app:layout_constraintTop_toTopOf="@+id/alcohool" />
+
+            <TextView
+                android:id="@+id/alcohooltxt"
+                android:layout_width="246dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Evitar el alcohol durante el síndrome premenstrual y los períodos intensos ayuda a equilibrar los cambios hormonales y reducir los síntomas. Permitir que el hígado se enfoque en metabolizar el estrógeno mejora el bienestar durante esta fase del ciclo menstrual."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/alcohool"
+                app:layout_constraintTop_toBottomOf="@+id/alcohoolTitulo" />
+
+            <ImageView
+                android:id="@+id/img_cafe"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/cafe"
+                app:layout_constraintTop_toBottomOf="@+id/alcohool"
+                app:srcCompat="@drawable/img_consejo5_7" />
+
+            <TextView
+                android:id="@+id/cafe"
+                android:layout_width="258dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/estilo_rectangulo"
+                android:backgroundTint="#B88860"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.869"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/alcohool" />
+
+            <TextView
+                android:id="@+id/cafeTitulo"
+                android:layout_width="240dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="CAFEINA"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/cafe"
+                app:layout_constraintTop_toTopOf="@+id/cafe" />
+
+            <TextView
+                android:id="@+id/cafetxt"
+                android:layout_width="246dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/quicksand_r"
+                android:text="Limita la cafeína durante el período para reducir antojos, cansancio e insomnio. Opta por una taza antes del mediodía y enfócate en bebidas hidratantes."
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@+id/cafe"
+                app:layout_constraintTop_toBottomOf="@+id/cafeTitulo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

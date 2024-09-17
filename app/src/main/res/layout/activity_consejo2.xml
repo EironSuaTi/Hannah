@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Consejo2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_consejo2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/titulo_2"
+                android:layout_width="242dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:fontFamily="@font/cherry_r"
+                android:text="Colores de la menstruación"
+                android:textColor="#CF4D6F"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_0"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="208dp"
+                android:layout_marginTop="60dp"
+                app:layout_constraintStart_toStartOf="@+id/titulo_2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_consejo2_0" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="76dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo_2"
+                app:srcCompat="@drawable/img_consejo2_1" />
+
+            <TextView
+                android:id="@+id/RojoVivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="68dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Rojo Vivo"
+                android:textColor="#F43E4B"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_1"
+                app:layout_constraintTop_toBottomOf="@+id/titulo_2" />
+
+            <TextView
+                android:id="@+id/txtRojo"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Signo de menstruación perfectamente saludable"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_1"
+                app:layout_constraintTop_toBottomOf="@+id/RojoVivo" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="56dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_1"
+                app:srcCompat="@drawable/img_consejo2_2" />
+
+            <TextView
+                android:id="@+id/RojoIntenso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Rojo Intenso"
+                android:textColor="#BB2E36"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_2"
+                app:layout_constraintTop_toBottomOf="@+id/txtRojo" />
+
+            <TextView
+                android:id="@+id/txtRojoIntenso"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Sucede cuando se tiene una mentruación muy abundante"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_2"
+                app:layout_constraintTop_toBottomOf="@+id/RojoIntenso" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="72dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_2"
+                app:srcCompat="@drawable/img_consejo2_3" />
+
+            <TextView
+                android:id="@+id/Marron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="86dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Marrón"
+                android:textColor="#69161A"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_3"
+                app:layout_constraintTop_toBottomOf="@+id/txtRojoIntenso" />
+
+            <TextView
+                android:id="@+id/txtMarron"
+                android:layout_width="235dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Al entrar en contacto con el aire, se oscurece, visible con toallitas. El goteo al inicio o al finalizar la menstruación puede ser de ciclos pasados o el que esta acabando."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_3"
+                app:layout_constraintTop_toBottomOf="@+id/Marron" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="84dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_3"
+                app:srcCompat="@drawable/img_consejo2_4" />
+
+            <TextView
+                android:id="@+id/Cafe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Café o negra"
+                android:textColor="#3D0A0D"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_4"
+                app:layout_constraintTop_toBottomOf="@+id/txtMarron" />
+
+            <TextView
+                android:id="@+id/txtCafe"
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Ha tardado mucho tiempo en salir del utero, tambien puede contener coagulos."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_4"
+                app:layout_constraintTop_toBottomOf="@+id/Cafe" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="76dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_4"
+                app:srcCompat="@drawable/img_consejo2_5" />
+
+            <TextView
+                android:id="@+id/Anaranjado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Anaranjado"
+                android:textColor="#E6531D"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_5"
+                app:layout_constraintTop_toBottomOf="@+id/txtCafe" />
+
+            <TextView
+                android:id="@+id/txtAnaranjado"
+                android:layout_width="235dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Indica que se sufre algun tipo de infección. En este caso la sangre también tendrá un olor fuerte y desagradable."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_5"
+                app:layout_constraintTop_toBottomOf="@+id/Anaranjado" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="112dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_5"
+                app:srcCompat="@drawable/img_consejo2_6" />
+
+            <TextView
+                android:id="@+id/Rosado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="86dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Rosado"
+                android:textColor="#ED79B0"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_6"
+                app:layout_constraintTop_toBottomOf="@+id/txtAnaranjado" />
+
+            <TextView
+                android:id="@+id/txtRosado"
+                android:layout_width="235dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Puede indicar sangrado ligero, uso de anticonceptivos hormonales, desbalance hormonal, potencial deficiencia de estrogenos
+"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_6"
+                app:layout_constraintTop_toBottomOf="@+id/Rosado" />
+
+            <ImageView
+                android:id="@+id/img_consejo2_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="100dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_consejo2_6"
+                app:srcCompat="@drawable/img_consejo2_7" />
+
+            <TextView
+                android:id="@+id/Grisaceo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cherry_r"
+                android:text="Grisaceo"
+                android:textColor="#7D7273"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_7"
+                app:layout_constraintTop_toBottomOf="@+id/txtRosado" />
+
+            <TextView
+                android:id="@+id/txtGrisaceo"
+                android:layout_width="235dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/quicksand_r"
+                android:gravity="center"
+                android:text="Manchas de este color pueden siginificar infección. Si hay sangrado abundante y restos de tejido grisáceo, consulta a un médico."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_consejo2_6"
+                app:layout_constraintTop_toBottomOf="@+id/Grisaceo" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_backInicioConsejos2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

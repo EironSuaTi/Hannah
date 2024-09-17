@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEB5DC"
+    tools:context=".Fragmento_Consejos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtConsejos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/asap_r"
+                android:text="Consejos"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/consejo1"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtConsejos"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo2"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo3"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo2"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo4"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo3"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo5"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo4"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo6"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo5"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/consejo7"
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/estilo_rectangulo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.59"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consejo6"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo1"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo1"
+                app:layout_constraintEnd_toEndOf="@+id/consejo1"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo1"
+                app:layout_constraintTop_toTopOf="@+id/consejo1" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo2"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo2"
+                app:layout_constraintEnd_toEndOf="@+id/consejo2"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo2"
+                app:layout_constraintTop_toTopOf="@+id/consejo2" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo3"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo3"
+                app:layout_constraintEnd_toEndOf="@+id/consejo3"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo3"
+                app:layout_constraintTop_toTopOf="@+id/consejo3"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo4"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo4"
+                app:layout_constraintEnd_toEndOf="@+id/consejo4"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo4"
+                app:layout_constraintTop_toTopOf="@+id/consejo4"/>
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo5"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo5"
+                app:layout_constraintEnd_toEndOf="@+id/consejo5"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo5"
+                app:layout_constraintTop_toTopOf="@+id/consejo5"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo6"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo6"
+                app:layout_constraintEnd_toEndOf="@+id/consejo6"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo6"
+                app:layout_constraintTop_toTopOf="@+id/consejo6"/>
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/img_consejo7"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo7"
+                app:layout_constraintEnd_toEndOf="@+id/consejo7"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toStartOf="@+id/consejo7"
+                app:layout_constraintTop_toTopOf="@+id/consejo7"/>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="¿Copa menstrual o tampon?"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo1"
+                app:layout_constraintEnd_toEndOf="@+id/consejo1"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo1"
+                app:layout_constraintTop_toTopOf="@+id/consejo1"
+                app:layout_constraintVertical_bias="0.176" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="Hemos comparado las características esenciales de cada uno de estos productos,para que tú misma decidas cuál es el más adecuado para tu cuerpo."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo1"
+                app:layout_constraintEnd_toEndOf="@+id/consejo1"
+                app:layout_constraintHorizontal_bias="0.841"
+                app:layout_constraintStart_toStartOf="@+id/consejo1"
+                app:layout_constraintTop_toTopOf="@+id/consejo1"
+                app:layout_constraintVertical_bias="0.7" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="Explorando los colores del sangrado"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo2"
+                app:layout_constraintEnd_toEndOf="@+id/consejo2"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo2"
+                app:layout_constraintTop_toTopOf="@+id/consejo2"
+                app:layout_constraintVertical_bias="0.176"/>
+
+            <TextView
+                android:id="@+id/txt22"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="Guía visual de los diferentes colores que puede tener el sangrado menstrual y qué significan."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo2"
+                app:layout_constraintEnd_toEndOf="@+id/consejo2"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo2"
+                app:layout_constraintTop_toTopOf="@+id/consejo2"
+                app:layout_constraintVertical_bias="0.772" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="¿Sangrado de implantación?"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo3"
+                app:layout_constraintEnd_toEndOf="@+id/consejo3"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo3"
+                app:layout_constraintTop_toTopOf="@+id/consejo3"
+                app:layout_constraintVertical_bias="0.176"/>
+
+            <TextView
+                android:id="@+id/txt33"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="Aqui veremos que es este tipo de sangrado y como reconocerlo,  entra para descrubir más sobre este tema."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo3"
+                app:layout_constraintEnd_toEndOf="@+id/consejo3"
+                app:layout_constraintHorizontal_bias="0.841"
+                app:layout_constraintStart_toStartOf="@+id/consejo3"
+                app:layout_constraintTop_toTopOf="@+id/consejo3"
+                app:layout_constraintVertical_bias="0.7" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="¿Retrasos o irregularidades?"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo4"
+                app:layout_constraintEnd_toEndOf="@+id/consejo4"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo4"
+                app:layout_constraintTop_toTopOf="@+id/consejo4"
+                app:layout_constraintVertical_bias="0.176"/>
+
+            <TextView
+                android:id="@+id/txt44"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:textSize="10sp"
+                android:text="Descubriremos las diversas causas que pueden provocar retrasos en la regla, y desmitificaremos la creencia de que siempre está relacionado con el embarazo.  Aprenderemos sobre los factores que influyen en la regularidad del ciclo menstrual y cómo reconocer posibles anomalías."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo4"
+                app:layout_constraintEnd_toEndOf="@+id/consejo1"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo4"
+                app:layout_constraintTop_toTopOf="@+id/consejo4"
+                app:layout_constraintVertical_bias="0.772" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="¿Qué debo comer durante mi periodo?"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo5"
+                app:layout_constraintEnd_toEndOf="@+id/consejo5"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo5"
+                app:layout_constraintTop_toTopOf="@+id/consejo5"
+                app:layout_constraintVertical_bias="0.176"/>
+
+            <TextView
+                android:id="@+id/txt55"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="Alimentate de forma saludable durante el ciclo menstrual te ofrece  información clave para mantener una dieta equilibrada y aprovechar al máximo  tu bienestar durante esta fase del mes."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo5"
+                app:layout_constraintEnd_toEndOf="@+id/consejo5"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo5"
+                app:layout_constraintTop_toTopOf="@+id/consejo5"
+                app:layout_constraintVertical_bias="0.772" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="240dp"
+                android:layout_height="19dp"
+                android:text="Guía para la identificación de enfermedades vaginales."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo6"
+                app:layout_constraintEnd_toEndOf="@+id/consejo6"
+                app:layout_constraintHorizontal_bias="0.909"
+                app:layout_constraintStart_toStartOf="@+id/consejo6"
+                app:layout_constraintTop_toTopOf="@+id/consejo6"
+                app:layout_constraintVertical_bias="0.175" />
+
+            <TextView
+                android:id="@+id/txt66"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:text="Aprende sobre los síntomas característicos de afecciones como la candidiasis, vaginosis bacteriana, tricomoniasis. Descubre las diferencias clave entre cada enfermedad."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo6"
+                app:layout_constraintEnd_toEndOf="@+id/consejo6"
+                app:layout_constraintHorizontal_bias="0.841"
+                app:layout_constraintStart_toStartOf="@+id/consejo6"
+                app:layout_constraintTop_toTopOf="@+id/consejo6"
+                app:layout_constraintVertical_bias="0.166" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="230dp"
+                android:layout_height="19dp"
+                android:text="Métodos anticonceptivos hormonales"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo7"
+                app:layout_constraintEnd_toEndOf="@+id/consejo7"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="@+id/consejo7"
+                app:layout_constraintTop_toTopOf="@+id/consejo7"
+                app:layout_constraintVertical_bias="0.176" />
+
+            <TextView
+                android:id="@+id/txt77"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:text="En este apartado conoce los distintos anti conceptivos hormonales que hay, hablaremos de su efectividad y los pros y contras de cada uno y así conocerlos mejor y ver cuál de adapta mejor a ti"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/consejo7"
+                app:layout_constraintEnd_toEndOf="@+id/consejo7"
+                app:layout_constraintHorizontal_bias="0.833"
+                app:layout_constraintStart_toStartOf="@+id/consejo7"
+                app:layout_constraintTop_toTopOf="@+id/consejo7"
+                app:layout_constraintVertical_bias="0.166" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_sintomas"
+    tools:context=".Sintomas">
+
+    <!--
+        baseColor = color del circulito del fondo
+        baseTextColor = color de las letras y numeros
+        selectedColor = color del circulito del fondo seleccionado
+        selectedTextColor = color de numeros y dia seleccionado
+    -->
+
+    <ImageView
+        android:id="@+id/btn_backPerfilSint"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+    <com.harrywhewell.scrolldatepicker.DayScrollDatePicker
+        android:id="@+id/calendario_datepicker"
+        android:layout_width="335dp"
+        android:layout_height="146dp"
+        android:background="#00FFFFFF"
+        app:baseColor="@color/white"
+        app:baseTextColor="@color/black"
+        app:selectedColor="#F5BCDC"
+        app:selectedTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052">
+
+
+    </com.harrywhewell.scrolldatepicker.DayScrollDatePicker>
+
+    <TextView
+        android:id="@+id/fechatxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/raleway_sb"
+        android:text="Hoy: "
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <HorizontalScrollView
+        android:id="@+id/sxs"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28">
+
+        <LinearLayout
+            android:id="@+id/actvSex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/tog11"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/icono_sx_deseo_sexual"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog12"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_sx_masturbacion"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog13"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_sx_sexo_con_proteccion"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog14"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/icono_sx_sexo_sin_proteccion"
+                android:textSize="1sp" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/animo"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488">
+
+        <LinearLayout
+            android:id="@+id/estAnim"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/tog21"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/icono_ea_amoroso"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog22"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_ea_asustado"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog23"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_ea_coqueto"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog24"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_ea_enojado"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog25"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_ea_estresado"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog26"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_ea_lloroso"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog27"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/icono_ea_relajada"
+                android:textSize="1sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+
+        <LinearLayout
+            android:id="@+id/sintomas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/tog31"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/icono_s_acne"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog32"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_dolor_de_cabeza"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog33"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_fatiga"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog34"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_vomito"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog35"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_colicos"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog36"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_dolor_de_espalda"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog37"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_s_inflamacion"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog38"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/icono_s_senos_sensibles"
+                android:textSize="1sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/estilo_rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917">
+
+        <LinearLayout
+            android:id="@+id/flujVag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/tog41"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/icono_f_cremoso"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog42"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_f_clara"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog43"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/icono_f_pegajoso"
+                android:textSize="1sp" />
+
+            <ToggleButton
+                android:id="@+id/tog44"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/icono_f_seco"
+                android:textSize="1sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_sb"
+        android:text="Actividad Sexual y Deseo"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_sb"
+        android:text="Estado de ánimo"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/txt33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_sb"
+        android:text="Síntomas"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_sb"
+        android:text="Flujo Vaginal"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/btn_guardarSintomas"
+        android:layout_width="168dp"
+        android:layout_height="33dp"
+        android:background="@drawable/estilo_fondo_botones"
+        android:text="Guardar Sintomas"
+        android:textColor="#AB5EA7"
+        android:textSize="10sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
