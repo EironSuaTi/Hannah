@@ -8,4 +8,5 @@ La aplicación fue desarrollada utilizando tecnologías como Java, Android Studi
 
 
 
-![image](https://github.com/user-attachments/assets/3c6bc9a2-6925-4216-a983-ba34fde7b10c)
+https://github.com/user-attachments/assets/d8517000-baae-4759-8624-bb092457f10d
+
