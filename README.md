@@ -7,5 +7,6 @@ Además, ofrece información sobre salud femenina.
 La aplicación fue desarrollada utilizando tecnologías como Java, Android Studio y Firebase, lo que permite una experiencia fluida y la gestión segura de los datos de los usuarios.
 
 
+![image](https://github.com/user-attachments/assets/282c6f12-e87f-4799-89ef-9b0509754765)
 
 
